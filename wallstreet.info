@@ -1,0 +1,30 @@
+name = Wallstreet
+description = Stylish & slick Drupal 7 theme
+core = 7.x
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/tabs.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/structure.css
+stylesheets[all][] = css/node.css
+stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/comment.css
+stylesheets[all][] = css/form.css
+stylesheets[all][] = css/font.css
+stylesheets[all][] = css/panel.css
+stylesheets[all][] = css/view.css
+stylesheets[all][] = css/nivo-slider.css
+
+
+regions[header] = Header
+regions[slideshow] = Slideshow
+regions[highlight] = Highlight
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[footer] = Footer
+
+settings[toggle_slogan] = 0
+settings[wallstreet_show_title_front_page] = 0
+settings[wallstreet_enable_logo] = 0
+
+scripts[] = js/wallstreet.js
